@@ -1,1 +1,1 @@
-# 17.fashionBlog-frontend-homepage
+# Frontend: Non-Responsive Fashion Blog Homepage
