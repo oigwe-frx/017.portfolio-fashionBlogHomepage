@@ -169,7 +169,9 @@
   </main><!-- /.container -->
 
   <footer class="mt-auto text-white-50 text-center bg-dark">
-    <p> <a href="www.ositaigwe.dev" class="text-white">Created by Osita Igwe</a></p>
+    <p> 
+      <a href="www.ositaigwe.dev" class="text-white">Created by Osita Igwe</a>
+    </p>
   </footer>
 
 
