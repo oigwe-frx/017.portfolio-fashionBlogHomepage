@@ -1,100 +1,114 @@
 body {
-    font-family: 'News Cycle', sans-serif;
+  font-family: 'News Cycle', sans-serif;
 }
 
 a {
-    text-decoration: none;
-    font-weight: bold;
-    font-size: smaller;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: smaller;
 }
 
 a:hover {
-    font-size: medium;
-    text-decoration: underline;
+  font-size: medium;
+  text-decoration: underline;
 }
 
 .bg-black {
-    background-color: black;
+  background-color: black;
 }
 
 .blog-header-logo {
-    font-size: 50px;
-    font-weight: 400;
-    font-style: italic;
-    text-decoration: none;
-    font-family: 'Old Standard TT', serif;
+  font-size: 50px;
+  font-weight: 400;
+  font-style: italic;
+  text-decoration: none;
+  font-family: 'Old Standard TT', serif;
 }
 
 .italic-heading {
-    font-family: 'Old Standard TT', serif;
-    font-style: italic;
+  font-family: 'Old Standard TT', serif;
+  font-style: italic;
+}
+
+.solo {
+  display: block;
 }
 
 .tagline {
-    color: black;
-    font-weight: 800;
-    font-family: 'News Cycle';
-    text-decoration: none;
-    letter-spacing: .25px;
-    vertical-align: super;
-    font-size: medium;
-    
+  color: black;
+  font-weight: 800;
+  font-family: 'News Cycle';
+  text-decoration: none;
+  letter-spacing: 0.25px;
+  vertical-align: super;
+  font-size: medium;
 }
 
-
 .caption {
-    font-size: 10px;
-    text-align: right;
-    margin-right: 3%;
-    margin-top: 3%;
-
+  font-size: 10px;
+  text-align: right;
+  font-weight: bold;
+  color: black;
+  margin: auto 0;
 }
 
 .img-holder {
-    background-color: black;
+  background-color: lightgray;
+  height: 100%;
 }
 
 .img-main {
-    min-height: 100%;
-    width: auto;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
 }
 
+.main {
+  width: 100%;
+  margin: 0 0 20px 0;
+}
 
 .post {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    filter: grayscale(1);
+  background-size: cover;
+  background-position: right;
+  filter: grayscale(1);
+  height: 90%;
+}
 
+.post-main {
+  background-image: url("https://images.pexels.com/photos/1154861/pexels-photo-1154861.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  filter: grayscale(0);
+  background-position: left;
 }
 
 .post-1 {
     background-image: url("media/images/compressed/pexels-muchosol-5558228.jpg");
-
 }
-
-
 
 .post-2 {
     background-image: url("media/images/compressed/pexels-yogendra-singh-5185596.jpg");
+  background-position: center;
+
 }
 
 .post-3 {
     background-image: url("media/images/compressed/pexels-nothing-ahead-3414471.jpg");
 }
 
-
-
 .post-4 {
     background-image: url("media/images/compressed/pexels-godisable-jacob-907685.jpg");
-
 }
 .post-5 {
     background-image: url("media/images/compressed/pexels-godisable-jacob-1377452.jpg");
-
 }
 
-.post-1:hover, .post-2:hover, .post-3:hover, .post-4:hover, .post-5:hover{
-    filter: grayscale(0);
-
+.post-1:hover,
+.post-2:hover,
+.post-3:hover,
+.post-4:hover,
+.post-5:hover {
+  filter: grayscale(0);
 }
+
+
+
