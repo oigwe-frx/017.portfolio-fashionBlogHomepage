@@ -137,6 +137,10 @@ p {
   main {
     min-width: 320px;
   }
+  
+  .post{
+    background-size: clamp(350%,100%,1024px);
+  }
  
 }
 
