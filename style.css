@@ -70,23 +70,24 @@ a:hover {
 
 .post {
   background-size: cover;
-  background-position: right;
+  background-position: center;
+  background-repeat: no-repeat;
   filter: grayscale(1);
   height: 90%;
 }
 
 .post-main {
-  background-image: url(media/images/compressed/pexels-godisable-jacob-1154861.jpg);
+  background-image: url("https://images.pexels.com/photos/1154861/pexels-photo-1154861.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
   filter: grayscale(0);
   background-position: left;
 }
 
 .post-1 {
-  background-image: url(media/images/compressed/pexels-muchosol-5558228.jpg);
+  background-image: url('https://images.pexels.com/photos/5558228/pexels-photo-5558228.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 }
 
 .post-2 {
-  background-image: url(media/images/compressed/pexels-yogendra-singh-5185596.jpg);
+  background-image: url('https://images.pexels.com/photos/5185596/pexels-photo-5185596.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
   background-position: center;
 
 }
@@ -96,7 +97,7 @@ a:hover {
 }
 
 .post-4 {
-  background-image: url(media/images/compressed/pexels-godisable-jacob-907685.jpg);
+  background-image: url('https://images.pexels.com/photos/907685/pexels-photo-907685.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
   filter: grayscale(0);
 
 }
@@ -126,12 +127,16 @@ p {
   -webkit-line-clamp: 4;
   }
 
-
-@media only screen and (min-width: 320px){
-  main {
-    min-width: 320px;
+  .row-mod {
+    display: flex;
+    flex-wrap: wrap;
   }
 
 
-
+@media only screen and (min-width: 320px) and (max-width: 480px){
+  main {
+    min-width: 320px;
+  }
+ 
 }
+
