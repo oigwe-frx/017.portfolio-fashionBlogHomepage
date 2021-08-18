@@ -76,7 +76,7 @@ a:hover {
 }
 
 .post-main {
-  background-image: url("https://images.pexels.com/photos/1154861/pexels-photo-1154861.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-image: url(media/images/compressed/pexels-godisable-jacob-1154861.jpg);
   filter: grayscale(0);
   background-position: left;
 }
