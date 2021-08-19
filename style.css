@@ -142,12 +142,6 @@ p {
   main {
     min-width: 320px;
   }
-
-  .post {
-    background-size: clamp(770px,100%,1024px);
-    background-attachment: scroll !important;
-
-  }
  
 }
 
