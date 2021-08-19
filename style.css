@@ -72,12 +72,16 @@ a:hover {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  filter: grayscale(1);
   height: 90%;
+}
+.post-img {
+  width: 100%;
+    object-fit: cover;
+    padding: 0 !important
 }
 
 .post-main {
-  background-image: url("https://images.pexels.com/photos/1154861/pexels-photo-1154861.jpeg?auto=compress&cs=tinysrgb&h=615&w=1024");
+  background-image: url("https://images.pexels.com/photos/1154861/pexels-photo-1154861.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
   filter: grayscale(0);
   background-position: left;
 }
@@ -137,9 +141,11 @@ p {
   main {
     min-width: 320px;
   }
-  
-  .post{
-    background-size: clamp(350%,100%,1024px);
+
+  .post {
+    background-size: clamp(770px,100%,1024px);
+    background-attachment: scroll !important;
+
   }
  
 }
