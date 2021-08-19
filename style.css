@@ -142,6 +142,10 @@ p {
   main {
     min-width: 320px;
   }
+  
+  .height-auto {
+  height: auto;
+}
  
 }
 
