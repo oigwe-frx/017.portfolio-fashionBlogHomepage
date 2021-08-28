@@ -1,152 +1,93 @@
 body {
-  font-family: 'News Cycle', sans-serif;
+  font-family:'News Cycle', sans-serif;
 }
 
-a {
-  text-decoration: none;
-  font-weight: bold;
-  font-size: smaller;
+/*-- HEADINGS -- */
+h1 {
+  font-family:'Old Standard TT', serif;
+  font-size:4rem;
+  font-style:italic;
+  font-weight:400;
+  text-decoration:none;
+}
+h3 {
+  border-bottom:0.01rem solid rgba(255,255,255,0.774);
+  font-family:'Old Standard TT', serif;
+  font-style:italic;
+  padding-bottom:1rem;
 }
 
-a:hover {
-  font-size: medium;
-  text-decoration: underline;
-}
-
-.bg-black {
-  background-color: black;
-}
-
-.blog-header-logo {
-  font-size: 50px;
-  font-weight: 400;
-  font-style: italic;
-  text-decoration: none;
-  font-family: 'Old Standard TT', serif;
-}
-
-.italic-heading {
-  font-family: 'Old Standard TT', serif;
-  font-style: italic;
-}
-
-.solo {
-  display: block;
-}
-
-.tagline {
-  color: black;
-  font-weight: 800;
-  font-family: 'News Cycle';
-  text-decoration: none;
-  letter-spacing: 0.25px;
-  vertical-align: super;
-  font-size: medium;
-}
-
-.caption {
-  font-size: 10px;
-  text-align: right;
-  font-weight: bold;
-  color: black;
-  margin: auto 0;
-  background-color: lightgrey;
-
-}
-
-.img-holder {
-  background-color: lightgray;
-  height: 100% !important;
-  width: 100%;
-}
-
-.img-main {
-  background-size: cover;
-  padding: 0;
-  margin: 0;
-}
-
-
-
-.main {
-  width: 100%;
-  margin: 0 0 20px 0;
-}
-
-.post {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 90%;
-}
-.post-img {
-  width: 100%;
-  height: clamp(270px, 450px, 530px); 
-  object-fit: cover;
-  padding: 0 !important;
-}
-
-.post-main {
-  background-image: url("https://images.pexels.com/photos/1154861/pexels-photo-1154861.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
-  filter: grayscale(0);
-  background-position: left;
-}
-
-.post-1 {
-  background-image: url('https://images.pexels.com/photos/5558228/pexels-photo-5558228.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-}
-
-.post-2 {
-  background-image: url('https://images.pexels.com/photos/5185596/pexels-photo-5185596.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
-  background-position: center;
-
-}
-
-.post-3 {
-  background-image: url('https://images.pexels.com/photos/2323113/pexels-photo-2323113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-}
-
-.post-4 {
-  background-image: url('https://images.pexels.com/photos/907685/pexels-photo-907685.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
-  filter: grayscale(0);
-
-}
-.post-5 {
-  background-image: url('https://images.pexels.com/photos/1377452/pexels-photo-1377452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-}
-
-.post-1:hover,
-.post-2:hover,
-.post-3:hover,
-.post-4:hover,
-.post-5:hover {
-  filter: grayscale(0);
-}
-
+/*-- TEXT --*/
 p {
-  width:90%;
-  
-  /**Major Properties**/
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
   line-height: 2rem;
   max-height: 8rem;
-  -webkit-box-orient: vertical;
-  display: block;
-  display: -webkit-box;
   overflow: hidden !important;
   text-overflow: ellipsis;
-  -webkit-line-clamp: 4;
+  width:90%;
   }
 
-  .row-mod {
-    display: flex;
-    flex-wrap: wrap;
-  }
+/*-- LINKS --*/
+
+a {
+  color:#000;
+  font-size:smaller;
+  font-weight:700;
+  text-decoration:none;
+}
+a:hover {
+  color:#000;
+  font-size:medium;
+}
+a img {
+  height:auto;
+  width:15%;
+}
+a p {
+  color:#000;
+  font-family:'News Cycle';
+  font-size:medium;
+  font-weight:800;
+  letter-spacing:.25px;
+  margin:0 auto;
+}
+
+/*-- LAYOUT --*/
+.main {
+  background-color:#000;
+  margin:0 0 20px;
+  width:100%;
+}
 
 
+/*-- ARTICLE PREVIEW:  IMAGES--*/
+.article-img-caption {
+  background-color:#D3D3D3;
+  color:#000;
+  font-size:10px;
+  font-weight:700;
+  margin:auto 0;
+  text-align:right;
+}
+.article-img {
+  filter:grayscale(0);
+  height:clamp(270px,450px,530px);
+  object-fit:cover;
+  padding:0!important;
+  width:100%;
+}
+.article-img:hover {
+  filter: grayscale(1);
+}
+
+
+
+/*-- MEDIA QUERY --*/
 @media only screen and (min-width: 320px) and (max-width: 480px){
   main {
     min-width: 320px;
   }
-
 }
 
