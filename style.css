@@ -50,14 +50,14 @@ a p {
   font-family:'News Cycle';
   font-size:medium;
   font-weight:800;
-  letter-spacing:.25px;
+  letter-spacing:.05rem;
   margin:0 auto;
 }
 
 /*-- LAYOUT --*/
 .main {
   background-color:#000;
-  margin:0 0 20px;
+  margin:0 0 2rem;
   width:100%;
 }
 
@@ -66,14 +66,14 @@ a p {
 .article-img-caption {
   background-color:#D3D3D3;
   color:#000;
-  font-size:10px;
+  font-size:0.65rem;
   font-weight:700;
   margin:auto 0;
   text-align:right;
 }
 .article-img {
   filter:grayscale(0);
-  height:clamp(270px,450px,530px);
+  height:clamp(17rem,28rem,34rem);
   object-fit:cover;
   padding:0!important;
   width:100%;
