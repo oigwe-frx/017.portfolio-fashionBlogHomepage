@@ -12,4 +12,4 @@ Use your new HTML knowledge to create the underlying structure of the blog. Make
 
 ![Final Project!](https://github.com/osita-igwe/17.fashionBlog-frontend-homepage/blob/main/blog.gif)<br>
 
-View the final project [here](https://osita-igwe.github.io/17.fashionBlog-frontend-homepage/)
+View the final project [here](https://oigwe-frx.github.io/17.fashionBlog-frontend-homepage/)
