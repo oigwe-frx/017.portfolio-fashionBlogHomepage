@@ -1,4 +1,4 @@
-# Frontend: Non-Responsive Fashion Blog Homepage
+# Project 17: Frontend: Non-Responsive Fashion Blog Homepage
 
 Your friend Isa is a budding fashion blogger, and she’s asked you to build her a new website, just in time for New York Fashion Week!
 
